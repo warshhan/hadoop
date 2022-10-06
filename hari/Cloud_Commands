@@ -1,0 +1,16 @@
+  956  hadoop fs -mkdir /Hariwarshan
+  957  hadoop fs -copyFromLocal Cloud.txt /Hariwarshan
+  958  hadoop jar hadoop-mapreduce-
+  959  hadoop jar hadoop-mapreduce-client-app-2.10.2.jar
+  960  sudo jps
+  961  hadoop jar hadoop-mapreduce-client-app-2.10.2.jar
+  962  hadoop jar hadoop-mapreduce-examples-2.2.0.jar
+  963  hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordmean Hariwarshan/Dataset /Hariwarshan/Mapreduce/Word Mean
+  964  hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordmean Hariwarshan/Dataset /Hariwarshan/Mapreduce/Wordmean
+  965  hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordmean /Hariwarshan/Dataset /Hariwarshan/Mapreduce/Wordmean
+  966  hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordcount /Hariwarshan/Dataset /Hariwarshan/Mapreduce/Wordcount
+  967  hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordcount /Hariwarshan/Dataset /Hariwarshan/data/Wordcount
+  968  hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordcount /Hariwarshan/Cloud.txt /Hariwarshan/Mapreduce/Wordcount
+  969  hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordmean /Hariwarshan/Cloud.txt /Hariwarshan/Mapreduce/Wordmean
+  970  hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordmedian /Hariwarshan/Cloud.txt /Hariwarshan/Mapreduce/Wordmedian
+  971  hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordstandarddeviation /Hariwarshan/Cloud.txt /Hariwarshan/Mapreduce/WordStandardDeviation
